@@ -1,57 +1,60 @@
 {{ range $element :=  .Data.Pages }}
   {{ if eq .Section "home" }}
-      {{ if eq .Title "aboutus_box" }}
+    {{ if eq .Title "aboutus_box" }}
 		<section id="company" class="dark-translucent-bg background-img-5 pv-40">
-		    <div class="container">
-		        <div class="row">
-		            <div class="col-md-6">
-		                <div class="content-slider owl-theme" style="opacity: 1; display: block;">
-		                    <div class="owl-wrapper-outer"><div class="owl-wrapper" ><div class="owl-item"><div class="testimonial text-center padding-ver-clear">
-		                        <h3>{{ .Params.header }}</h3>
-		                        <div class="separator"></div>
-		                        <div class="testimonial-body">
-		                            <blockquote>
-		                                <p>{{ .Params.summary }} </br><a href="/contactus">Contact us</a></p>
-		                            </blockquote>
-		                            
-		                        </div>
-		                    </div>
-		                    </div>
-		                    </div>
-		                    </div>
-		                    
-		                </div>
-		            </div>
-		            <div class="col-md-6">
-		                <div class="clients-container">
-		                    <div class="clients">
-		                        
-		                        <div class="client-image object-non-visible animated object-visible fadeIn" data-animation-effect="fadeIn" data-effect-delay="700">
-		                            <a href="http://www.rogerthat.net/" target="_blank"><img src="images/partners/roger.png" alt=""></a>	                            
-		                        </div>
-		                        <div class="client-image object-non-visible animated object-visible fadeIn" data-animation-effect="fadeIn" data-effect-delay="200">
-		                            <a href="http://www.awingu.com/" target="_blank"><img src="images/partners/awingu.png" alt=""></a>
-		                        </div>
-		                        <div class="client-image object-non-visible animated object-visible fadeIn" data-animation-effect="fadeIn" data-effect-delay="300">
-		                            <a href="#" target="_blank"><img src="images/partners/cloud-founders.png" alt=""></a>
-		                        </div>
-		                       
-		                        <div class="client-image object-non-visible animated object-visible fadeIn" data-animation-effect="fadeIn" data-effect-delay="500">
-		                            <a href="#" target="_blank"><img src="images/partners/openvsolutions.png" alt=""></a>
-		                        </div>
+	    <div class="container">
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-8">
+            <div class="content-slider owl-theme" style="opacity: 1; display: block;">
+              <div class="owl-wrapper-outer">
+                <div class="owl-wrapper" >
+                  <div class="owl-item">
+                    <div class="testimonial text-center padding-ver-clear">
+                      <h3>{{ .Params.header }}</h3>
+                      <div class="separator"></div>
+                      <div class="testimonial-body">
+                        <blockquote>
+                            {{ .Content }}
+                        </blockquote>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2"></div>
+            <!-- <div class="col-md-6">
+                <div class="clients-container">
+                    <div class="clients">
 
-		                        <div class="client-image object-non-visible animated object-visible fadeIn" data-animation-effect="fadeIn" data-effect-delay="600">
-		                            <a href="http://www.racktivity.com/" target="_blank"><img src="images/partners/racktivity.png" alt=""></a>
-		                        </div>
-		                         <div style="padding-top: 0;" class="client-image object-non-visible animated object-visible fadeIn" data-animation-effect="fadeIn" data-effect-delay="400">
-		                            <a href="https://www.mothership1.com/" target="_blank"><img src="images/partners/mothership1.png" alt=""></a>
-		                        </div>
-		                    </div>
-		                </div>
-		            </div>
-		        </div>
-		    </div>
-		</section>
-		{{ end }}
-  	{{ end }}
+                        <div class="client-image object-non-visible animated object-visible fadeIn" data-animation-effect="fadeIn" data-effect-delay="700">
+                            <a href="http://www.rogerthat.net/" target="_blank"><img src="images/partners/roger.png" alt=""></a>
+                        </div>
+                        <div class="client-image object-non-visible animated object-visible fadeIn" data-animation-effect="fadeIn" data-effect-delay="200">
+                            <a href="http://www.awingu.com/" target="_blank"><img src="images/partners/awingu.png" alt=""></a>
+                        </div>
+                        <div class="client-image object-non-visible animated object-visible fadeIn" data-animation-effect="fadeIn" data-effect-delay="300">
+                            <a href="#" target="_blank"><img src="images/partners/cloud-founders.png" alt=""></a>
+                        </div>
+
+                        <div class="client-image object-non-visible animated object-visible fadeIn" data-animation-effect="fadeIn" data-effect-delay="500">
+                            <a href="#" target="_blank"><img src="images/partners/openvsolutions.png" alt=""></a>
+                        </div>
+
+                        <div class="client-image object-non-visible animated object-visible fadeIn" data-animation-effect="fadeIn" data-effect-delay="600">
+                            <a href="http://www.racktivity.com/" target="_blank"><img src="images/partners/racktivity.png" alt=""></a>
+                        </div>
+                         <div style="padding-top: 0;" class="client-image object-non-visible animated object-visible fadeIn" data-animation-effect="fadeIn" data-effect-delay="400">
+                            <a href="https://www.mothership1.com/" target="_blank"><img src="images/partners/mothership1.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+	    </div>
+	  </section>
+	  {{ end }}
+  {{ end }}
 {{ end }}

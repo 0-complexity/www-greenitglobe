@@ -206,7 +206,7 @@ blockquote {
   padding: 10px 25px;
 }
 blockquote:after {
-  content: "“";
+  content:"\201C";
   width: 25px;
   height: 25px;
   line-height: 36px;
@@ -214,13 +214,20 @@ blockquote:after {
   font-family: 'PT Serif', serif;
   position: absolute;
   top: 12px;
-  left: 0px;
+  left: 5px;
   color: #cdcdcd;
 }
-.blockquote:before {
+blockquote:before {
+  content:"\201D";
+  width: 25px;
+  height: 25px;
+  line-height: 36px;
+  font-size: 36px;
   font-family: 'PT Serif', serif;
-  content: "“";
-  font-size: 40px;
+  position: absolute;
+  top: 86px;
+  right: 170px;
+  color: #cdcdcd;
 }
 blockquote.inline {
   padding: 0;
@@ -819,13 +826,14 @@ tbody {
   color: #ffffff;
 }
 .dark-translucent-bg a:not(.btn) {
-  text-decoration: underline;
+  text-decoration: none;
+  font-weight: bold;
   color: #ffffff;
 }
-.dark-translucent-bg a:not(.btn):hover {
+/*.dark-translucent-bg a:not(.btn):hover {
   text-decoration: none;
   color: #ffffff;
-}
+}*/
 .two-col-translucent-bg {
   color: #333;
 }

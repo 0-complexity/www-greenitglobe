@@ -210,21 +210,28 @@ blockquote {
 	padding: 10px 25px;
 }
 blockquote:after {
-	content: "“";
-	width: 25px;
-	height: 25px;
-	line-height: 36px;
-	font-size: 36px;
-	font-family: @font-family-pt-serif;
-	position: absolute;
-	top: 12px;
-	left: 0px;
-	color: @gray-lighter;
+  content:"\201C";
+  width: 25px;
+  height: 25px;
+  line-height: 36px;
+  font-size: 36px;
+  font-family: 'PT Serif', serif;
+  position: absolute;
+  top: 12px;
+  left: 5px;
+  color: #cdcdcd;
 }
-.blockquote:before {
-	font-family: @font-family-pt-serif;
-	content: "“";
-	font-size: 40px;
+blockquote:before {
+  content:"\201D";
+  width: 25px;
+  height: 25px;
+  line-height: 36px;
+  font-size: 36px;
+  font-family: 'PT Serif', serif;
+  position: absolute;
+	top: 86px;
+  right: 170px;
+  color: #cdcdcd;
 }
 blockquote.inline {
 	padding: 0;
@@ -292,9 +299,9 @@ ul {
 	display: inline-block;
 }
 /* Medium desktop devices and tablets */
-@media (min-width: 992px) and (max-width: 1199px) { 
-	.header-top .list-inline > li { 
-		padding: 0; 
+@media (min-width: 992px) and (max-width: 1199px) {
+	.header-top .list-inline > li {
+		padding: 0;
 	}
 }
 
