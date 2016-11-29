@@ -9,7 +9,7 @@ Our QA / NPI Team Leader has a critical role to succeed in this endeavour. She/H
 
 We are looking for passionate individuals that are energized by a constant quest to innovate and to compete on a global scale.
 
-### Tasks & Responsibilities
+### **Tasks & Responsibilities**
 ---
 * set up integration and validation testing team
 * set up NPI team
@@ -18,14 +18,14 @@ We are looking for passionate individuals that are energized by a constant quest
 * plan controler product introductions with customers
 * plan GA release introductions with customers
 
-### Desired Skills and Experience
+### **Desired Skills and Experience**
 ---
 * senior expert in software QA processes / teams (3yr)
 * natural born people leader
 * loves working in multi-cultural environments
 * software development expertise (5yr) - prefered Go Lang / Python / C++
 
-### Personality and Non Technical Skills
+### **Personality and Non Technical Skills**
 ---
 * eager to work within multi-cultural environment
 * teamplayer as second nature

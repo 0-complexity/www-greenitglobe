@@ -4,6 +4,9 @@
 .bgNone { background-color: transparent !important;}
 p img { max-width: 694px;}
 .form-control { margin: 10px 0;}
+hr{
+  margin-bottom: 10px;
+}
 /* Sticky footer styles
 -------------------------------------------------- */
 html {position: relative;min-height: 100%;}
