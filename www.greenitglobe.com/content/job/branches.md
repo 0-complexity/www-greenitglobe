@@ -21,6 +21,8 @@ job7_link = "senior_project_manager"
 branch1_sec3 = "Products"
 job8_name = "Senior Product Manager"
 job8_link = "senior_product_manager"
+job9_name = "Product Marketing Manager B2B (IaaS)"
+job9_link = "product_marketing_manager_b2b"
 branch2_name ="Dubai"
 branch3_name ="Egypt"
 
