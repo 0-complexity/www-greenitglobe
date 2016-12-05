@@ -1,30 +1,6 @@
 +++
-  title="Jobs In Dubai & Egypt"
+  title="High Potentials"
 +++
-### Personal Abilities
-* Fast Learner (New Programming Languages, Systems)
-* Flexible
-* Ability to learn/read fast
-* Willing to learn from home to get better faster
-* Good english written/oral
-
-### Technical Expertise
-* Fluent on Linux
-* Fluent in Python
-
-## **Senior UI Expert:** (1)
-* Coordinate work (will work lots with outsourced people)
-* Knowledge transfer / Training
-* Good knowledge of JS/Angular/…
-* Location: anywhere
-
-## **Senior System Engineer:** (2-4)
-* Fluent in C/C++
-* Understand networking, storage, linux in great depth
-* Understanding of kernel
-* Location: anywhere ok but need at least 2 in dubai
-* Senior is not related to age but to expertise
-
 ## **High Potentials Team Dubai** (5-6 people)
 * Young, willing to live in dubai for 2 years, afterwards they can relocate to where they want
 (family cannot relocate in first 2 years if any family, but normally will not have family yet)
