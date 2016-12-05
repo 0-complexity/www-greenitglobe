@@ -139,26 +139,29 @@
 											</li>
 										</ul>
 									</div>
-								<div class="col-md-6">
-									<h3>Do you want to work in <strong>{{ .Params.branch2_name }}</strong>?</h3>
-									<ul>
-										<li>
-											<a href="#">Sales Manager</a></li>
-										<li>
-											<a href="#">Inside Sales Manager</a></li>
-									</ul>
-									<h3>Do you want to work in <strong>{{ .Params.branch3_name }}</strong>?</h3>
-									<ul>
-										<li>
-											<a href="#">Sales Talent</a></li>
-										<li>
-											<a href="#">Sales Consultant</a></li>
-										<li>
-											<a href="#">Customer Success Professional&nbsp;</a></li>
-										<li>
-											<a href="#">Product Designer</a></li>
-									</ul>
-								</div>
+									<div class="col-md-6">
+										<h3>Do you want to work as <strong>{{ .Params.branch2_name }}</strong>?</h3>
+										<p>{{ .Params.branch2_description }}</p>
+										<ul>
+											<li>
+												<a href="{{ .Params.branch2_link1 }}" target='_blank'>{{ .Params.branch2_link1_name }}</a>
+											</li>
+											<li>
+												<a href="{{ .Params.branch2_link2 }}" target='_blank'>{{ .Params.branch2_link2_name }}</a>
+											</li>
+											<li>
+												<a href="{{ .Params.branch2_link3 }}" target='_blank'>{{ .Params.branch2_link3_name }}</a>
+											</li>
+											<li>
+												<a href="{{ .Params.branch2_link4 }}" target='_blank'>{{ .Params.branch2_link4_name }}</a>
+											</li>
+										</ul>
+
+										<h3>Do you want to work in <strong>{{ .Params.branch4_name }}</strong> or <strong>{{ .Params.branch3_name }}</strong>?</h3>
+										<p>{{ .Params.branch3_4_description }}
+											<a href="{{ .Params.branch3_4_link }}">{{ .Params.branch3_4_link_name }}</a>
+										</p>
+									</div>
 								</div>
 							</div>
 							{{end}}
