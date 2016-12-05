@@ -1,7 +1,7 @@
 +++
 title = "Senior DevOps Engineer"
 +++
-Location: **Lochristi (Belgium)**
+Location: **Lochristi (Belgium)** or **Dubai (UAE)**
 
 GIG and its partners are building out a network of G8 Cloud Nodes that form he world's first green, private, secure, local, performant public cloud. In fact, we are creating the next generation internet in which privacy is a human right, security is the new normal and cloud is a local utility for all humans just like energy and water.
 
