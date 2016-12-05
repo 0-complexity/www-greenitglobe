@@ -51,6 +51,6 @@ branch2_link4 ="gig_stage_4"
 branch3_name ="Egypt"
 branch4_name = "Dubai"
 branch3_4_description = "GIG is putting together high-potential teams for Dubai and Cairo. We are looking for young and passionate self-learners that want to take up the challenge to become a master engineer under the wings of our best technologists working from Dubai and Cairo. Are you a high-potential team candidates?"
-branch3_4_link = "https://docs.google.com/document/d/1WWXySdQkIVJ6-iopU74VT0wVOAtuYcHtZ48bEGLTToo/edit"
+branch3_4_link = "jobs_in_egypt_dubai"
 branch3_4_link_name = "Find out here"
 +++
