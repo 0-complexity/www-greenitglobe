@@ -16,6 +16,8 @@ job5_link = "junior_devOps_engineer"
 branch1_sec2 = "Operations"
 job6_name = "Manager, GIG Cloud Operations Center"
 job6_link = "goc_leader"
+job7_name = "Senior Project Manager"
+job7_link = "senior_project_manager"
 branch2_name ="Dubai"
 branch3_name ="Egypt"
 
