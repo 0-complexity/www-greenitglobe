@@ -5,9 +5,13 @@ Location: **Lochristi (Belgium)** or **Dubai (UAE)**
 
 GIG and its partners are building out a network of G8 Cloud Nodes that form he world's first green, private, secure, local, performant public cloud. In fact, we are creating the next generation internet in which privacy is a human right, security is the new normal and cloud is a local utility for all humans just like energy and water.
 
-Our QA / NPI Team Leader has a critical role to succeed in this endeavour. She/He is responsible to lead the QA team that does end-to-end integration and validation testing and is responsible for ensuring a smooth introduction of new releases in the field (NPI : new product introduction).
+The senior user-experience / user-interface expert has to be proficient in multiple skills, ranging from usability to design and technology. The UI expert also need to have a clear understanding of business goals and user behaviour.
 
-We are looking for passionate individuals that are energized by a constant quest to innovate and to compete on a global scale.
+In order to identify a great UI expert, it is necessary to employ an effective development process, covering functionality and content, wire-framing and prototyping, execution, and analytics, along with the usual set of requirements that will ensure the candidate is a good fit for your organisation and the particular project they will be working on.
+
+UI design job descriptions and job ads must reflect your particular needs, while at the same time outlining the difference between UX and UI design, thus filtering out designers lacking in UX experience.
+
+We are looking for passionate individuals that are energized by a constant quest to innovate and to compete on a global scale. We are a dynamic, agile, fast moving organisation that has the big and audacious goal to bring IT as Energy capacity to the world.
 
 ### **Tasks & Responsibilities**
 ---

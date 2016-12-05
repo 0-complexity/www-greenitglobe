@@ -1,5 +1,6 @@
 +++
-title = "Product Marketing Manager B2B "
+title = "Product Marketing Manager B2B"
+description = "(Infrastructure-as-a-Service)"
 +++
 Location: **Lochristi (Belgium)**
 

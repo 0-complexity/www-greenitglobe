@@ -3,11 +3,13 @@ title = "Senior DevOps Engineer"
 +++
 Location: **Lochristi (Belgium)** or **Dubai (UAE)**
 
-GIG and its partners are building out a network of G8 Cloud Nodes that form he world's first green, private, secure, local, performant public cloud. In fact, we are creating the next generation internet in which privacy is a human right, security is the new normal and cloud is a local utility for all humans just like energy and water.
+GIG is building out a Cloud Operations Center that will operator public clouds globally. This will be the next generation operations center - significantly disrupting the way hyperscale datacenters are built and ran today.
 
-Our QA / NPI Team Leader has a critical role to succeed in this endeavour. She/He is responsible to lead the QA team that does end-to-end integration and validation testing and is responsible for ensuring a smooth introduction of new releases in the field (NPI : new product introduction).
+The GIG Cloud Operations Center is an important part of GIG's go-to-market and critical in its success and its creation of market value.
 
-We are looking for passionate individuals that are energized by a constant quest to innovate and to compete on a global scale.
+The role of Senior DevOps Engeineer is to be one of the senior DevOps guru's in the team - ensuring a smooth, qualitative delivery of services on top of public clouds globally.
+
+We are looking for passionate individuals that are energized by a constant quest for delivering and improving SLA's and relentlessly innovate to increase automation and improve customer experience.
 
 ### **Tasks & Responsibilities**
 ---
@@ -19,18 +21,18 @@ We are looking for passionate individuals that are energized by a constant quest
 
 ### **Desired Skills and Experience**
 ---
-* at least 5 years experience in DevOps of virtualized environments (either public or private clouds)
-* strong Linux background
-* strong Networking background (CCIE certified or equivalent)
-* proven coding capablity (reference prefered), preferably python experience
-* proven sys admin experience (reference prefered)
+* At least 5 years experience in DevOps of virtualized environments (either public or private clouds)
+* Strong Linux background
+* Strong Networking background (CCIE certified or equivalent)
+* Proven coding capablity (reference prefered), preferably python experience
+* Proven sys admin experience (reference prefered)
 
 ### **Personality and Non Technical Skills**
 ---
-* quick learner
-* ability to thrive in a less structured fast growing organization
-* fluent English speaker / writer (TOEFL level of 85 or more)
-* strong problem resolution in stressed circumstances
+* Quick learner
+* Ability to thrive in a less structured fast growing organization
+* Fluent English speaker / writer (TOEFL level of 85 or more)
+* Strong problem resolution in stressed circumstances
 
 <br/>
 

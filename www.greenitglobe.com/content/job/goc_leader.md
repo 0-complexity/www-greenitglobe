@@ -27,21 +27,21 @@ We are looking for passionate individuals that are energized by a constant quest
 
 ### **Desired Skills and Experience**
 ---
-* strong project manager
-* strong team leader
-* at least 5 years experience in DevOps of virtualized environments (either public or private clouds)
-* strong Linux background
-* strong Networking background (CCIE certified or equivalent)
-* proven coding capablity (reference prefered), preferably python experience
-* proven sys admin experience (reference prefered)
+* Strong project manager
+* Strong team leader
+* At least 5 years experience in DevOps of virtualized environments (either public or private clouds)
+* Strong Linux background
+* Strong Networking background (CCIE certified or equivalent)
+* Proven coding capablity (reference prefered), preferably python experience
+* Proven sys admin experience (reference prefered)
 
 ### **Personality and Non Technical Skills**
 ---
-* primus inter pares
-* quick learner
-* ability to thrive in a less structured fast growing organization
-* fluent English speaker / writer (TOEFL level of 85 or more)
-* strong problem resolution in stressed circumstances
+* Primus inter pares
+* Quick learner
+* Ability to thrive in a less structured fast growing organization
+* Fluent English speaker / writer (TOEFL level of 85 or more)
+* Strong problem resolution in stressed circumstances
 
 <br/>
 

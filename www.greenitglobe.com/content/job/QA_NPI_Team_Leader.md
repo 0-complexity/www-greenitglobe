@@ -11,27 +11,27 @@ We are looking for passionate individuals that are energized by a constant quest
 
 ### **Tasks & Responsibilities**
 ---
-* set up integration and validation testing team
-* set up NPI team
-* set up automated testing
-* schedule validation and integration testing prior to shipping releases to the field
-* plan controler product introductions with customers
-* plan GA release introductions with customers
+* Set up integration and validation testing team
+* Set up NPI team
+* Set up automated testing
+* Schedule validation and integration testing prior to shipping releases to the field
+* Plan controler product introductions with customers
+* Plan GA release introductions with customers
 
 ### **Desired Skills and Experience**
 ---
-* senior expert in software QA processes / teams (3yr)
-* natural born people leader
-* loves working in multi-cultural environments
-* software development expertise (5yr) - prefered Go Lang / Python / C++
+* Senior expert in software QA processes / teams (3yr)
+* Natural born people leader
+* Loves working in multi-cultural environments
+* Software development expertise (5yr) - prefered Go Lang / Python / C++
 
 ### **Personality and Non Technical Skills**
 ---
-* eager to work within multi-cultural environment
-* teamplayer as second nature
-* quick learner
-* ability to thrive in a less structured fast growing organization
-* fluent English speaker / writer (TOEFL level of 85 or more)
+* Eager to work within multi-cultural environment
+* Teamplayer as second nature
+* Quick learner
+* Ability to thrive in a less structured fast growing organization
+* Fluent English speaker / writer (TOEFL level of 85 or more)
 
 <br/>
 
