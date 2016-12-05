@@ -22,6 +22,9 @@
 	.center{
 		text-align: center;
 	}
+	.center .col-md-4:last-of-type{
+		padding: 0;
+	}
 	.center img{
 		display: inline-block;
 		border-radius: 100%;
@@ -75,8 +78,7 @@
 							      <div class="col-md-4">
 											<img alt="" src="{{ .Params.block2_image }}">
 							        <h3>{{ .Params.block2_header }}</h3>
-							        <p>
-												{{ .Params.block2_text }}
+							        <p>Send us your CV and a letter of motivation to <a href="mailto:jobs@greenitglobe.com">jobs@greenitglobe.com</a> . {{ .Params.block2_text }}
 												<!-- <a href="{{ .Params.block2_link }}">Find out more.</a>&nbsp;<br> -->
 											</p>
 							      </div>

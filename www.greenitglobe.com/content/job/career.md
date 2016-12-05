@@ -12,7 +12,7 @@ block1_link = "#"
 
 block2_image = "/images/apply.png"
 block2_header = "So you want to apply to GIG?"
-block2_text = "Send us your CV and a letter of motivation to jobs@greenitglobe.com. If your profile fits our expectations and company culture, we start off with an informal chat."
+block2_text = "If your profile fits our expectations and company culture, we start off with an informal chat."
 block2_link = "#"
 
 block3_image = "/images/good-news.png"
