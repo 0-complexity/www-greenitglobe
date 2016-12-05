@@ -103,12 +103,27 @@
 								<div class="row">
 									<div class="col-md-6">
 										<h3>Do you want to work for <strong>{{ .Params.branch1_name }}</strong>?</h3>
-										<p>Development</p>
+										<p>{{ .Params.branch1_sec1 }}</p>
 										<ul>
 											<!-- <li>
 												<a href="{{ .Params.job1_link }}" target='_blank'>{{ .Params.job1_name }}</a></li> -->
 											<li>
 												<a href="{{ .Params.job2_link }}" target='_blank'>{{ .Params.job2_name }}</a></li>
+											<li>
+												<a href="{{ .Params.job3_link }}" target='_blank'>{{ .Params.job3_name }}</a>
+											</li>
+											<li>
+												<a href="{{ .Params.job4_link }}" target='_blank'>{{ .Params.job4_name }}</a>
+											</li>
+											<li>
+												<a href="{{ .Params.job5_link }}" target='_blank'>{{ .Params.job5_name }}</a>
+											</li>
+										</ul>
+
+										<p>{{ .Params.branch1_sec2 }}</p>
+										<ul>
+											<li>
+												<a href="{{ .Params.job6_link }}" target='_blank'>{{ .Params.job6_name }}</a></li>
 											<li>
 												<a href="{{ .Params.job3_link }}" target='_blank'>{{ .Params.job3_name }}</a>
 											</li>
