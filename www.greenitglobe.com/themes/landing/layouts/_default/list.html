@@ -67,18 +67,26 @@
 							      <div class="col-md-4">
 							        <img alt="" src="{{ .Params.block1_image }}">
 							        <h3>{{ .Params.block1_header }}</h3>
-							        <p>{{ .Params.block1_text }}<a href="{{ .Params.block1_link }}">discover our offer.</a></p>
+							        <p>
+												{{ .Params.block1_text }}
+												<!-- <a href="{{ .Params.block1_link }}">discover our offer.</a> -->
+											</p>
 							      </div>
 							      <div class="col-md-4">
 											<img alt="" src="{{ .Params.block2_image }}">
 							        <h3>{{ .Params.block2_header }}</h3>
-							        <p>{{ .Params.block2_text }}&nbsp;<a href="{{ .Params.block2_link }}">Find out more.</a>&nbsp;<br></p>
+							        <p>
+												{{ .Params.block2_text }}
+												<!-- <a href="{{ .Params.block2_link }}">Find out more.</a>&nbsp;<br> -->
+											</p>
 							      </div>
 							      <div class="col-md-4">
 											<img alt="" src="{{ .Params.block3_image }}">
 							        <h3>{{ .Params.block3_header }}</h3>
-							        <p>{{ .Params.block3_text }}&nbsp;<br>
-							          <a href="{{ .Params.block3_link }}">A sneak preview of your first month at Teamleader.</a></p>
+							        <p>
+												{{ .Params.block3_text }}
+							          <!-- <a href="{{ .Params.block3_link }}">A sneak preview of your first month at Teamleader.</a> -->
+											</p>
 							      </div>
 							    </div>
 							  </div>
@@ -104,6 +112,9 @@
 											</li>
 											<li>
 												<a href="{{ .Params.job4_link }}">{{ .Params.job4_name }}</a>
+											</li>
+											<li>
+												<a href="{{ .Params.job5_link }}">{{ .Params.job5_name }}</a>
 											</li>
 										</ul>
 
