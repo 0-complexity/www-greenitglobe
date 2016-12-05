@@ -34,7 +34,7 @@ We are looking for passionate individuals that are energized by a constant quest
 
 About **Green IT Globe (GIG)**
 
-Website: <a href="http://www.greenitglobe.com">www.greenitglobe.com</a>
+Website: [www.greenitglobe.com](http://www.greenitglobe.com)
 
 Green IT Globe is a technology-led initiative driven by a team that came from all corners of the earth to build something epic together. We are reinventing the Internet by delivering IT as Energy. We share a common vision about the changing IT landscape and the need for a more reliable, scalable and safer Internet for individuals, businesses and governments.
 
@@ -43,4 +43,4 @@ Our teams have deployed the first internet petabyte storage platforms achieving 
 We are driven by innovation and internet technologies. Green IT Globe is on a mission to be the first European unicorn (=billion dollar startup) making a green, friendly and safer Internet. We have offices in Ghent (Belgium), Dubai (UAE) and Cairo (Egypt). Today we are nearly 100 people that follow their dreams, rather than being led by money.
 
 #### Contact us
-Please contact <mailto:jobs@greenitglobe.com>  
+Please contact: [jobs@greenitglobe.com](mailto:jobs@greenitglobe.com)
