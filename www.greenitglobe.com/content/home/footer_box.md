@@ -18,7 +18,7 @@ social3_link = "https://www.youtube.com/channel/UCrEK7gTkcd6gSJRDP5iYCqg"
 social4_title = "linkedin"
 social4_link = "https://www.linkedin.com/company/green-it-globe"
 
-email = "gener8@greenitglobe.com"
+email = "international@greenitglobe.com"
 
 copy_right = "Copyright © 2017 Green IT Globe. All Rights Reserved."
 +++
