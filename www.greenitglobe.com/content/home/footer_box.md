@@ -20,5 +20,5 @@ social4_link = "https://www.linkedin.com/company/green-it-globe"
 
 email = "gener8@greenitglobe.com"
 
-copy_right = "Copyright © 2015 Green IT Globe. All Rights Reserved."
+copy_right = "Copyright © 2017 Green IT Globe. All Rights Reserved."
 +++
