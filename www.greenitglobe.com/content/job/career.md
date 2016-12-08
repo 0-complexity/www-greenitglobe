@@ -7,7 +7,7 @@ text = "Our business, our people: a continued success story. Are you interested 
 
 block1_image = "/images/offer.png"
 block1_header = "What does GIG have to offer?"
-block1_text = "We value talent, a can-do attitude and a pleasant work environment. We are building the first European billion dollar company with a vision towards IPO. You can participate."
+block1_text = "We are GIG. It’s never just a job here. We thrive in a fast-paced, high-energy innovative environment with infinite and international career opportunities. Our passionate, creative people shape the future of technology."
 block1_link = "#"
 
 block2_image = "/images/apply.png"
