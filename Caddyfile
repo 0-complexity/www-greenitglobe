@@ -1,4 +1,4 @@
-http://www.new-gig.aydo.com:8080, http://new-gig.aydo.com:8080 {
+http://www.greenitglobe.com:8080, http://greenitglobe.com:8080 {
 bind 0.0.0.0
 gzip
     root www.greenitglobe.com/en
@@ -9,6 +9,6 @@ gzip
         interval 300
         key ${HOME}/.ssh/id_rsa
         path ../../
-        then hugo -s www.new-gig.aydo.com
+        then hugo -s www.greenitglobe.com
     }
 }
