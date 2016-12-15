@@ -7,8 +7,8 @@
  * License URI:http://support.wrapbootstrap.com/
  * File Description: Place here your custom scripts
  */
-(function(){
-  $(document.links).filter(function() {
-    return this.hostname != window.location.hostname;
-  }).attr('target', '_blank');
-})();
+// (function(){
+//   $(document.links).filter(function() {
+//     return this.hostname != window.location.hostname;
+//   }).attr('target', '_blank');
+// })();
