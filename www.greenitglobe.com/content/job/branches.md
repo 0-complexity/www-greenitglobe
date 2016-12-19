@@ -4,34 +4,37 @@ title = "branches"
 
 branch1_name ="GIG"
 branch1_sec1 = "Development"
-job1_name = "QA / NPI Team Leader"
-job1_link = "qa_npi_team_leader"
+job_Dev1_name = "QA / NPI Team Leader"
+job_Dev1_link = "qa_npi_team_leader"
 
-job2_name = "Senior UI Expert"
-job2_link = "senior-ui-expert"
+job_dev2_name = "Senior UI Expert"
+job_dev2_link = "senior-ui-expert"
 
-job3_name = "Senior Systems Engineer"
-job3_link = "senior_systems_engineer"
+job_dev3_name = "Senior Systems Engineer"
+job_dev3_link = "senior_systems_engineer"
 
-job4_name = "Senior DevOps Engineer"
-job4_link = "senior_devOps_engineer"
+job_dev4_name = "Senior DevOps Engineer"
+job_dev4_link = "senior_devOps_engineer"
 
-job5_name = "Junior DevOps Engineer"
-job5_link = "junior_devOps_engineer"
+job_dev5_name = "Junior DevOps Engineer"
+job_dev5_link = "junior_devOps_engineer"
 
 branch1_sec2 = "Operations"
-job6_name = "Manager, GIG Cloud Operations Center"
-job6_link = "goc_leader"
+job_op1_name = "Manager, GIG Cloud Operations Center"
+job_op1_link = "goc_leader"
 
-job7_name = "Senior Project Manager"
-job7_link = "senior_project_manager"
+job_op2_name = "Senior Project Manager"
+job_op2_link = "senior_project_manager"
+
+job_op3_name = "Digital Marketeer - Marketing Coordinator"
+job_op3_link = "digital_marketeer"
 
 branch1_sec3 = "Products"
-job8_name = "Senior Product Manager"
-job8_link = "senior_product_manager"
+job_pro1_name = "Senior Product Manager"
+job_pro1_link = "senior_product_manager"
 
-job9_name = "Product Marketing Manager B2B (IaaS)"
-job9_link = "product_marketing_manager_b2b"
+job_pro2_name = "Product Marketing Manager B2B (IaaS)"
+job_pro2_link = "product_marketing_manager_b2b"
 
 branch2_name ="GIG Intern"
 branch2_description = "At GIG, our interns work on projects that matter - and your team will rely on your skills and insights to help deliver this projects to market. You’ll get the opportunity to work on real projects and have fun along the way. These are a few examples of Internship project:"

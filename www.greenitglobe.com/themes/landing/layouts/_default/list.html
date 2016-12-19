@@ -104,36 +104,39 @@
                   <p>{{ .Params.branch1_sec1 }}</p>
                   <ul>
                      <!-- <li>
-                        <a href="{{ .Params.job1_link }}" target='_blank'>{{ .Params.job1_name }}</a></li> -->
+                        <a href="{{ .Params.job_dev1_link }}" target='_blank'>{{ .Params.job_dev1_name }}</a></li> -->
                      <li>
-                        <a href="{{ .Params.job2_link }}" target='_blank'>{{ .Params.job2_name }}</a>
+                        <a href="{{ .Params.job_dev2_link }}" target='_blank'>{{ .Params.job_dev2_name }}</a>
                      </li>
                      <li>
-                        <a href="{{ .Params.job3_link }}" target='_blank'>{{ .Params.job3_name }}</a>
+                        <a href="{{ .Params.job_dev3_link }}" target='_blank'>{{ .Params.job_dev3_name }}</a>
                      </li>
                      <li>
-                        <a href="{{ .Params.job4_link }}" target='_blank'>{{ .Params.job4_name }}</a>
+                        <a href="{{ .Params.job_dev4_link }}" target='_blank'>{{ .Params.job_dev4_name }}</a>
                      </li>
                      <li>
-                        <a href="{{ .Params.job5_link }}" target='_blank'>{{ .Params.job5_name }}</a>
+                        <a href="{{ .Params.job_dev5_link }}" target='_blank'>{{ .Params.job_dev5_name }}</a>
                      </li>
                   </ul>
                   <p>{{ .Params.branch1_sec2 }}</p>
                   <ul>
                      <li>
-                        <a href="{{ .Params.job6_link }}" target='_blank'>{{ .Params.job6_name }}</a>
+                        <a href="{{ .Params.job_op1_link }}" target='_blank'>{{ .Params.job_op1_name }}</a>
                      </li>
                      <li>
-                        <a href="{{ .Params.job7_link }}" target='_blank'>{{ .Params.job7_name }}</a>
+                        <a href="{{ .Params.job_op2_link }}" target='_blank'>{{ .Params.job_op2_name }}</a>
+                     </li>
+										 <li>
+                        <a href="{{ .Params.job_op3_link }}" target='_blank'>{{ .Params.job_op3_name }}</a>
                      </li>
                   </ul>
                   <p>{{ .Params.branch1_sec3 }}</p>
                   <ul>
                      <li>
-                        <a href="{{ .Params.job8_link }}" target='_blank'>{{ .Params.job8_name }}</a>
+                        <a href="{{ .Params.job_pro1_link }}" target='_blank'>{{ .Params.job_pro1_name }}</a>
                      </li>
                      <li>
-                        <a href="{{ .Params.job9_link }}" target='_blank'>{{ .Params.job9_name }}</a>
+                        <a href="{{ .Params.job_pro2_link }}" target='_blank'>{{ .Params.job_pro2_name }}</a>
                      </li>
                   </ul>
                </div>
@@ -164,7 +167,6 @@
       </div>
       {{end}}
       {{ else if eq .Section "contactus" }}
-      {{ if eq .Title "contactus" }}
       <h3 class="title">{{ .Params.con_1_name }}</h3>
       <a href="{{ .Params.con_1_email }}">{{ .Params.con_1_emailname }}</a> <br>
       <span>Call {{ .Params.con1_branch1_name }} <a href="{{ .Params.con1_branch1_telno }}">{{ .Params.con1_branch1_tel}}</a></span> <br>
@@ -188,7 +190,6 @@
       <h3 class="title">{{ .Params.con_4_name }}</h3>
       <a href="{{ .Params.con_4_email }}">{{ .Params.con_4_emailname }}</a> <br>
       <span>Call <a href="{{ .Params.con4_branch1_telno }}">{{ .Params.con4_branch1_tel}}</a></span>
-      {{end}}
       {{end}}
       {{end}}
    {{ partial "footer.html" . }}
