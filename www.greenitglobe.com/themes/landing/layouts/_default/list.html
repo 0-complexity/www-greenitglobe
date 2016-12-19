@@ -167,32 +167,37 @@
       </div>
       {{end}}
       {{ else if eq .Section "contactus" }}
-      <h3 class="title">{{ .Params.con_1_name }}</h3>
-      <a href="{{ .Params.con_1_email }}">{{ .Params.con_1_emailname }}</a> <br>
-      <span>Call {{ .Params.con1_branch1_name }} <a href="{{ .Params.con1_branch1_telno }}">{{ .Params.con1_branch1_tel}}</a></span> <br>
-      <span>Call {{ .Params.con1_branch2_name }} <a href="{{ .Params.con1_branch2_telno }}">{{ .Params.con1_branch2_tel}}</a></span> <br>
-      <span>Call {{ .Params.con1_branch3_name }} <a href="{{ .Params.con1_branch3_telno }}">{{ .Params.con1_branch3_tel}}</a></span>
-      <div class="caption background-white">
-         <iframe src="{{ .Params.con_1_map }}" style="border:0;width: 100%; height: 400px"></iframe>
-      </div>
-      <h3 class="title">{{ .Params.con_2_name }}</h3>
-      <a href="{{ .Params.con_2_email }}">{{ .Params.con_2_emailname }}</a> <br>
-      <span>Call {{ .Params.con2_branch1_name }} <a href="{{ .Params.con2_branch1_telno }}">{{ .Params.con2_branch1_tel}}</a></span> <br>
-      <span>Call {{ .Params.con2_branch2_name }} <a href="{{ .Params.con2_branch2_telno }}">{{ .Params.con2_branch2_tel}}</a></span> <br> <br>
-      <a target="_blank" href="{{ .Params.con_2_url }}"><img src="{{ .Params.con_2_img }}"></a> <br>
-      <div class="caption background-white">
-         <iframe src="{{ .Params.con_2_map }}" style="border:0;width: 100%; height: 400px"></iframe>
-      </div>
-      <h3 class="title">{{ .Params.con_3_name }}</h3>
-      <a href="{{ .Params.con_3_email }}">{{ .Params.con_3_emailname }}</a> <br>
-      <span>Call {{ .Params.con3_branch1_name }} <a href="{{ .Params.con3_branch1_telno }}">{{ .Params.con3_branch1_tel}}</a></span>
-      <br><br>
-      <h3 class="title">{{ .Params.con_4_name }}</h3>
-      <a href="{{ .Params.con_4_email }}">{{ .Params.con_4_emailname }}</a> <br>
-      <span>Call <a href="{{ .Params.con4_branch1_telno }}">{{ .Params.con4_branch1_tel}}</a></span>
+			<div class="main-container" id="main">
+	      <h3 class="title">{{ .Params.con_1_name }}</h3>
+	      <a href="{{ .Params.con_1_email }}">{{ .Params.con_1_emailname }}</a> <br>
+	      <span>Call {{ .Params.con1_branch1_name }} <a href="{{ .Params.con1_branch1_telno }}">{{ .Params.con1_branch1_tel}}</a></span> <br>
+	      <span>Call {{ .Params.con1_branch2_name }} <a href="{{ .Params.con1_branch2_telno }}">{{ .Params.con1_branch2_tel}}</a></span> <br>
+	      <span>Call {{ .Params.con1_branch3_name }} <a href="{{ .Params.con1_branch3_telno }}">{{ .Params.con1_branch3_tel}}</a></span>
+	      <div class="caption background-white">
+	         <iframe src="{{ .Params.con_1_map }}" style="border:0;width: 100%; height: 400px"></iframe>
+	      </div>
+	      <h3 class="title">{{ .Params.con_2_name }}</h3>
+	      <a href="{{ .Params.con_2_email }}">{{ .Params.con_2_emailname }}</a> <br>
+	      <span>Call {{ .Params.con2_branch1_name }} <a href="{{ .Params.con2_branch1_telno }}">{{ .Params.con2_branch1_tel}}</a></span> <br>
+	      <span>Call {{ .Params.con2_branch2_name }} <a href="{{ .Params.con2_branch2_telno }}">{{ .Params.con2_branch2_tel}}</a></span> <br> <br>
+	      <a target="_blank" href="{{ .Params.con_2_url }}"><img src="{{ .Params.con_2_img }}"></a> <br>
+	      <div class="caption background-white">
+	         <iframe src="{{ .Params.con_2_map }}" style="border:0;width: 100%; height: 400px"></iframe>
+	      </div>
+	      <h3 class="title">{{ .Params.con_3_name }}</h3>
+	      <a href="{{ .Params.con_3_email }}">{{ .Params.con_3_emailname }}</a> <br>
+	      <span>Call {{ .Params.con3_branch1_name }} <a href="{{ .Params.con3_branch1_telno }}">{{ .Params.con3_branch1_tel}}</a></span>
+	      <br><br>
+	      <h3 class="title">{{ .Params.con_4_name }}</h3>
+	      <a href="{{ .Params.con_4_email }}">{{ .Params.con_4_emailname }}</a> <br>
+	      <span>Call <a href="{{ .Params.con4_branch1_telno }}">{{ .Params.con4_branch1_tel}}</a></span>
+			</div>
+		</div>
+	</div>
       {{end}}
-      {{end}}
+			{{end}}
    {{ partial "footer.html" . }}
+
    <script type="text/javascript" src="/plugins/jquery.min.js"></script>
    <script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script>
    <script type="text/javascript" src="/plugins/modernizr.js"></script>
