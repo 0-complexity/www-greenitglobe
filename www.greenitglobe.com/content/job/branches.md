@@ -32,6 +32,9 @@ job_op3_link = "digital_marketeer"
 job_op4_name = "Legal Assistant - Management Assistant"
 job_op4_link = "legal_assistant"
 
+job_op5_name = "Junior Recruitment Manager"
+job_op5_link = "junior_recruitment_manager"
+
 branch1_sec3 = "Products"
 job_pro1_name = "Senior Product Manager"
 job_pro1_link = "senior_product_manager"
