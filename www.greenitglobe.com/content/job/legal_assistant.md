@@ -13,38 +13,42 @@ De paralegal & admin bediende staat in voor de dagelijkse verwerking van de acti
 ### **Taken**
 ---
 #### **Legal**
-* Up to date houden van het juridisch klassement, zowel op papier als digitaal
-* “Corporate housekeeping” voor diverse juridische entiteiten;
-  * Opmaken notulen raden van bestuur
-  *	Opmaken documentatie omtrent algemene jaarvergaderingen;
-  *	Opmaken volmachten
-  *	Opmaken en opvolgen van publicaties in het Belgisch Staatsblad;
-  *	Enz.
+* Up to date houden van het juridisch klassement, zowel op papier als digitaal.
+* “Corporate housekeeping” voor diverse juridische entiteiten.
+  <br/><br/>
+  -- Opmaken notulen raden van bestuur. <br/>
+  --	Opmaken documentatie omtrent algemene jaarvergaderingen. <br/>
+  --	Opmaken volmachten. <br/>
+  --	Opmaken en opvolgen van publicaties in het Belgisch Staatsblad. <br/>
+  --	Enz.
+   <br/><br/>
 * Contract Management: opvolging van de ondertekening van juridische documenten, vervullen juridische formaliteiten, enz.
 * Algemene ondersteuning van de in-house legal counsel
-  *	Uitwerken van documenten
-  *	Opmaken briefwisseling
-  *	Juridische opzoekingen
+<br/><br/>
+  -- Uitwerken van documenten. <br/>
+  -- Opmaken briefwisseling. <br/>
+  -- Juridische opzoekingen.
+   <br/><br/>
 
 #### **Algemene Administratie**
-* Beantwoorden van de algemene tefoonlijn van Green IT Globe
-* Ontvangen en versturen van post, aangetekende zendingen en express zendingen
+* Beantwoorden van de algemene tefoonlijn van Green IT Globe.
+* Ontvangen en versturen van post, aangetekende zendingen en express zendingen.
 * Verantwoordelijk voor het boeken van reizen (tickets, hotels, etc).
-* Verantwoordelijk voor het bestellen van kantoormateriaal
-* Ondersteuning bij het organizeren van events
+* Verantwoordelijk voor het bestellen van kantoormateriaal.
+* Ondersteuning bij het organizeren van events.
 
 #### **Rapportering**
-* De paralegal & admin bediende raporteert aan de legal counsel en de CFO
-* Interne contacten: management team, legal counsel, CFO
+* De paralegal & admin bediende raporteert aan de legal counsel en de CFO.
+* Interne contacten: management team, legal counsel, CFO.
 * Externe contacten: reisbureau, notaris,..
 
 ### **Profiel**
 ---
 * **Opleiding en ervaring:**
-  * Minstens 2 jaar relevante ervaring, hetzij in een advocatenkantoor, hetzij in een KMO die internationaal actief is
-  * Interesse in of affiniteit met IT
-  * Tweetalig Nederlands en Engels,
-  * Goede kennis van MS Office toepassingen
+  * Minstens 2 jaar relevante ervaring, hetzij in een advocatenkantoor, hetzij in een KMO die internationaal actief is.
+  * Interesse in of affiniteit met IT.
+  * Tweetalig Nederlands en Engels.
+  * Goede kennis van MS Office toepassingen.
   <br/>
 * **Andere competenties**
   * Accuraat
@@ -57,14 +61,14 @@ De paralegal & admin bediende staat in voor de dagelijkse verwerking van de acti
 
 ### **Verloning**
 ---
-* Competitieve bruto verloning
-* Evt bedrijfswagen met tankkaart (te bekijken met aanpassing brutoloon)
-* Maaltijdcheques
-* Groepsverzekering
-* Hospitalisatieverzekering
-* GSM
-* Laptop
-* Internet@home
+* Competitieve bruto verloning.
+* Evt bedrijfswagen met tankkaart (te bekijken met aanpassing brutoloon).
+* Maaltijdcheques.
+* Groepsverzekering.
+* Hospitalisatieverzekering.
+* GSM.
+* Laptop.
+* Internet@home.
 
 About **Green IT Globe (GIG)**
 
