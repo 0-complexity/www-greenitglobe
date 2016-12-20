@@ -7,6 +7,7 @@ p img { max-width: 694px;}
 hr{
   margin-bottom: 10px;
 }
+.caption{ margin: 10px 0;}
 /* Sticky footer styles
 -------------------------------------------------- */
 html {position: relative;min-height: 100%;}

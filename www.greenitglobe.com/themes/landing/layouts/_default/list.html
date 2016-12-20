@@ -34,146 +34,179 @@
 		padding: 30px 0;
 	}
 </style>
-	<body class="no-trans front-page transparent-header ">
-	    <div class="scrollToTop circle"><i class="icon-up-open-big"></i></div>
-	        <div class="page-wrapper">
-			{{ partial "header.html" . }}
-				<div id="wrap">
-				<div class="main-container" id="main">
-					<div class="container page-container">
-						<h2 class="title"><strong>{{ .Title }}</strong></h2>
-						<div class="separator-2"></div>
-						{{ range .Data.Pages }}
-							{{ if eq .Section "news" }}
-								<h3><a href="{{.RelPermalink}}">{{ title .Title }}</a></h3>
-								<div class="media">
-								  <div class="media-left">
-								    <a href="{{.RelPermalink}}">
-								      <img class="media-object" src="{{ .Params.list_image }}">
-								    </a>
-								  </div>
-								  <div class="media-body">
-											{{ .Summary }}
-											<br />
-											<a href="{{.RelPermalink}}">Read more...</a>
-								  </div>
-								</div>
-								<hr />
-							{{end}}
-							{{ if eq .Title "jobs" }}
-								<div class="holder center">
-									<h2>{{ .Params.header }}</h2>
-									<p>{{ .Params.text }}</p>
-								</div>
-								<div class="center">
-							    <div class="row">
-							      <div class="col-md-4">
-							        <img alt="" src="{{ .Params.block1_image }}">
-							        <h3>{{ .Params.block1_header }}</h3>
-							        <p>
-												{{ .Params.block1_text }}
-												<!-- <a href="{{ .Params.block1_link }}">discover our offer.</a> -->
-											</p>
-							      </div>
-							      <div class="col-md-4">
-											<img alt="" src="{{ .Params.block2_image }}">
-							        <h3>{{ .Params.block2_header }}</h3>
-							        <p>Send us your CV and a letter of motivation to <a href="mailto:jobs@greenitglobe.com">jobs@greenitglobe.com</a> . {{ .Params.block2_text }}
-												<!-- <a href="{{ .Params.block2_link }}">Find out more.</a>&nbsp;<br> -->
-											</p>
-							      </div>
-							      <div class="col-md-4">
-											<img alt="" src="{{ .Params.block3_image }}">
-							        <h3>{{ .Params.block3_header }}</h3>
-							        <p>
-												{{ .Params.block3_text }}
-							          <!-- <a href="{{ .Params.block3_link }}">A sneak preview of your first month at Teamleader.</a> -->
-											</p>
-							      </div>
-							    </div>
-							  </div>
-							{{end}}
-							{{end}}
-						</div>
-					</div>
-					<div class="branHolder">
-						<div class="container">
-							{{ range .Data.Pages }}
-								{{ if eq .Title "branches" }}
-								<div class="row">
-									<div class="col-md-6">
-										<h3>Do you want to work for <strong>{{ .Params.branch1_name }}</strong>?</h3>
-										<p>{{ .Params.branch1_sec1 }}</p>
-										<ul>
-											<!-- <li>
-												<a href="{{ .Params.job1_link }}" target='_blank'>{{ .Params.job1_name }}</a></li> -->
-											<li>
-												<a href="{{ .Params.job2_link }}" target='_blank'>{{ .Params.job2_name }}</a></li>
-											<li>
-												<a href="{{ .Params.job3_link }}" target='_blank'>{{ .Params.job3_name }}</a>
-											</li>
-											<li>
-												<a href="{{ .Params.job4_link }}" target='_blank'>{{ .Params.job4_name }}</a>
-											</li>
-											<li>
-												<a href="{{ .Params.job5_link }}" target='_blank'>{{ .Params.job5_name }}</a>
-											</li>
-										</ul>
-
-										<p>{{ .Params.branch1_sec2 }}</p>
-										<ul>
-											<li>
-												<a href="{{ .Params.job6_link }}" target='_blank'>{{ .Params.job6_name }}</a></li>
-											<li>
-												<a href="{{ .Params.job7_link }}" target='_blank'>{{ .Params.job7_name }}</a>
-											</li>
-										</ul>
-
-										<p>{{ .Params.branch1_sec3 }}</p>
-
-										<ul>
-											<li>
-												<a href="{{ .Params.job8_link }}" target='_blank'>{{ .Params.job8_name }}</a></li>
-											<li>
-												<a href="{{ .Params.job9_link }}" target='_blank'>{{ .Params.job9_name }}</a>
-											</li>
-										</ul>
-									</div>
-									<div class="col-md-6">
-										<h3>Do you want to work as <strong>{{ .Params.branch2_name }}</strong>?</h3>
-										<p>{{ .Params.branch2_description }}</p>
-										<ul>
-											<li>
-												<a href="{{ .Params.branch2_link1 }}" target='_blank'>{{ .Params.branch2_link1_name }}</a>
-											</li>
-											<li>
-												<a href="{{ .Params.branch2_link2 }}" target='_blank'>{{ .Params.branch2_link2_name }}</a>
-											</li>
-											<li>
-												<a href="{{ .Params.branch2_link3 }}" target='_blank'>{{ .Params.branch2_link3_name }}</a>
-											</li>
-											<li>
-												<a href="{{ .Params.branch2_link4 }}" target='_blank'>{{ .Params.branch2_link4_name }}</a>
-											</li>
-										</ul>
-
-										<h3>Do you want to work in <strong>{{ .Params.branch4_name }}</strong> or <strong>{{ .Params.branch3_name }}</strong>?</h3>
-										<p>{{ .Params.branch3_4_description }}
-											<a href="{{ .Params.branch3_4_link }}">{{ .Params.branch3_4_link_name }}</a>
-										</p>
-									</div>
-								</div>
-							</div>
-							{{end}}
-							{{end}}
-						</div>
-				</div>
+<body class="no-trans front-page transparent-header ">
+   <div class="scrollToTop circle"><i class="icon-up-open-big"></i></div>
+   <div class="page-wrapper">
+   {{ partial "header.html" . }}
+   <div id="wrap">
+   <div class="main-container" id="main">
+      <div class="container page-container">
+         <h2 class="title"><strong>{{ .Title }}</strong></h2>
+         <div class="separator-2"></div>
+         {{ range .Data.Pages }}
+         {{ if eq .Section "news" }}
+         <h3><a href="{{.RelPermalink}}">{{ title .Title }}</a></h3>
+         <div class="media">
+            <div class="media-left">
+               <a href="{{.RelPermalink}}">
+               <img class="media-object" src="{{ .Params.list_image }}">
+               </a>
+            </div>
+            <div class="media-body">
+               {{ .Summary }}
+               <br />
+               <a href="{{.RelPermalink}}">Read more...</a>
+            </div>
+         </div>
+         <hr />
+         {{ else if eq .Section "job" }}
+         {{ if eq .Title "jobs" }}
+         <div class="holder center">
+            <h2>{{ .Params.header }}</h2>
+            <p>{{ .Params.text }}</p>
+         </div>
+         <div class="center">
+            <div class="row">
+               <div class="col-md-4">
+                  <img alt="" src="{{ .Params.block1_image }}">
+                  <h3>{{ .Params.block1_header }}</h3>
+                  <p>
+                     {{ .Params.block1_text }}
+                     <!-- <a href="{{ .Params.block1_link }}">discover our offer.</a> -->
+                  </p>
+               </div>
+               <div class="col-md-4">
+                  <img alt="" src="{{ .Params.block2_image }}">
+                  <h3>{{ .Params.block2_header }}</h3>
+                  <p>
+                     Send us your CV and a letter of motivation to <a href="mailto:jobs@greenitglobe.com">jobs@greenitglobe.com</a> . {{ .Params.block2_text }}
+                     <!-- <a href="{{ .Params.block2_link }}">Find out more.</a>&nbsp;<br> -->
+                  </p>
+               </div>
+               <div class="col-md-4">
+                  <img alt="" src="{{ .Params.block3_image }}">
+                  <h3>{{ .Params.block3_header }}</h3>
+                  <p>
+                     {{ .Params.block3_text }}
+                     <!-- <a href="{{ .Params.block3_link }}">A sneak preview of your first month at Teamleader.</a> -->
+                  </p>
+               </div>
+            </div>
+         </div>
+      </div>
+		</div>
+      {{ else if eq .Title "branches" }}
+      <div class="branHolder">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <h3>Do you want to work for <strong>{{ .Params.branch1_name }}</strong>?</h3>
+                  <p>{{ .Params.branch1_sec1 }}</p>
+                  <ul>
+                     <!-- <li>
+                        <a href="{{ .Params.job_dev1_link }}" target='_blank'>{{ .Params.job_dev1_name }}</a></li> -->
+                     <li>
+                        <a href="{{ .Params.job_dev2_link }}" target='_blank'>{{ .Params.job_dev2_name }}</a>
+                     </li>
+                     <li>
+                        <a href="{{ .Params.job_dev3_link }}" target='_blank'>{{ .Params.job_dev3_name }}</a>
+                     </li>
+                     <li>
+                        <a href="{{ .Params.job_dev4_link }}" target='_blank'>{{ .Params.job_dev4_name }}</a>
+                     </li>
+                     <li>
+                        <a href="{{ .Params.job_dev5_link }}" target='_blank'>{{ .Params.job_dev5_name }}</a>
+                     </li>
+                  </ul>
+                  <p>{{ .Params.branch1_sec2 }}</p>
+                  <ul>
+                     <li>
+                        <a href="{{ .Params.job_op1_link }}" target='_blank'>{{ .Params.job_op1_name }}</a>
+                     </li>
+                     <li>
+                        <a href="{{ .Params.job_op2_link }}" target='_blank'>{{ .Params.job_op2_name }}</a>
+                     </li>
+										 <li>
+                        <a href="{{ .Params.job_op3_link }}" target='_blank'>{{ .Params.job_op3_name }}</a>
+                     </li>
+										 <li>
+                        <a href="{{ .Params.job_op4_link }}" target='_blank'>{{ .Params.job_op4_name }}</a>
+                     </li>
+										 <li>
+                        <a href="{{ .Params.job_op5_link }}" target='_blank'>{{ .Params.job_op5_name }}</a>
+                     </li>
+                  </ul>
+                  <p>{{ .Params.branch1_sec3 }}</p>
+                  <ul>
+                     <li>
+                        <a href="{{ .Params.job_pro1_link }}" target='_blank'>{{ .Params.job_pro1_name }}</a>
+                     </li>
+                     <li>
+                        <a href="{{ .Params.job_pro2_link }}" target='_blank'>{{ .Params.job_pro2_name }}</a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-md-6">
+                  <h3>Do you want to work as <strong>{{ .Params.branch2_name }}</strong>?</h3>
+                  <p>{{ .Params.branch2_description }}</p>
+                  <ul>
+                     <li>
+                        <a href="{{ .Params.branch2_link1 }}" target='_blank'>{{ .Params.branch2_link1_name }}</a>
+                     </li>
+                     <li>
+                        <a href="{{ .Params.branch2_link2 }}" target='_blank'>{{ .Params.branch2_link2_name }}</a>
+                     </li>
+                     <li>
+                        <a href="{{ .Params.branch2_link3 }}" target='_blank'>{{ .Params.branch2_link3_name }}</a>
+                     </li>
+                     <li>
+                        <a href="{{ .Params.branch2_link4 }}" target='_blank'>{{ .Params.branch2_link4_name }}</a>
+                     </li>
+                  </ul>
+                  <h3>Do you want to work in <strong>{{ .Params.branch4_name }}</strong> or <strong>{{ .Params.branch3_name }}</strong>?</h3>
+                  <p>{{ .Params.branch3_4_description }}
+                     <a href="{{ .Params.branch3_4_link }}">{{ .Params.branch3_4_link_name }}</a>
+                  </p>
+               </div>
+            </div>
+         </div>
+      </div>
+      {{end}}
+      {{ else if eq .Section "contactus" }}
+			<div class="main-container" id="main">
+	      <h3 class="title">{{ .Params.con_1_name }}</h3>
+	      <a href="{{ .Params.con_1_email }}">{{ .Params.con_1_emailname }}</a> <br>
+	      <span>Call {{ .Params.con1_branch1_name }} <a href="{{ .Params.con1_branch1_telno }}">{{ .Params.con1_branch1_tel}}</a></span> <br>
+	      <span>Call {{ .Params.con1_branch2_name }} <a href="{{ .Params.con1_branch2_telno }}">{{ .Params.con1_branch2_tel}}</a></span> <br>
+	      <span>Call {{ .Params.con1_branch3_name }} <a href="{{ .Params.con1_branch3_telno }}">{{ .Params.con1_branch3_tel}}</a></span>
+	      <div class="caption background-white">
+	         <iframe src="{{ .Params.con_1_map }}" style="border:0;width: 100%; height: 400px"></iframe>
+	      </div>
+	      <h3 class="title">{{ .Params.con_2_name }}</h3>
+	      <a href="{{ .Params.con_2_email }}">{{ .Params.con_2_emailname }}</a> <br>
+	      <span>Call {{ .Params.con2_branch1_name }} <a href="{{ .Params.con2_branch1_telno }}">{{ .Params.con2_branch1_tel}}</a></span> <br>
+	      <span>Call {{ .Params.con2_branch2_name }} <a href="{{ .Params.con2_branch2_telno }}">{{ .Params.con2_branch2_tel}}</a></span> <br> <br>
+	      <a target="_blank" href="{{ .Params.con_2_url }}"><img src="{{ .Params.con_2_img }}"></a> <br>
+	      <div class="caption background-white">
+	         <iframe src="{{ .Params.con_2_map }}" style="border:0;width: 100%; height: 400px"></iframe>
+	      </div>
+	      <h3 class="title">{{ .Params.con_3_name }}</h3>
+	      <a href="{{ .Params.con_3_email }}">{{ .Params.con_3_emailname }}</a> <br>
+	      <span>Call {{ .Params.con3_branch1_name }} <a href="{{ .Params.con3_branch1_telno }}">{{ .Params.con3_branch1_tel}}</a></span>
+	      <br><br>
+	      <h3 class="title">{{ .Params.con_4_name }}</h3>
+	      <a href="{{ .Params.con_4_email }}">{{ .Params.con_4_emailname }}</a> <br>
+	      <span>Call <a href="{{ .Params.con4_branch1_telno }}">{{ .Params.con4_branch1_tel}}</a></span>
 			</div>
-			{{ partial "footer.html" . }}
-			</div>
-			<script type="text/javascript" src="/plugins/jquery.min.js"></script>
-			<script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script>
-			<script type="text/javascript" src="/plugins/modernizr.js"></script>
-			<script type="text/javascript" src="/js/custom.js"></script>
-	</body>
+		</div>
+	</div>
+      {{end}}
+			{{end}}
+   {{ partial "footer.html" . }}
+
+   <script type="text/javascript" src="/plugins/jquery.min.js"></script>
+   <script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script>
+   <script type="text/javascript" src="/plugins/modernizr.js"></script>
+   <script type="text/javascript" src="/js/custom.js"></script>
+</body>
 </html>
